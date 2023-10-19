@@ -1,0 +1,14 @@
+.container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+
+  h1 {
+    margin-bottom: 30px;
+
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}

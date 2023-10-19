@@ -12,3 +12,26 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+button {
+  padding: 18px 49px;
+
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  background-color: #ED9AD7;
+
+  border: none;
+  border-radius: 14px;
+
+  transition: 0.4s;
+
+  &:hover {
+    background-color: #dd7bc3;
+  }
+}
+
+.btn-container {
+  text-align: center;
+}
