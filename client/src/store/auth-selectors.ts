@@ -5,4 +5,4 @@ export const selectIsConnected = (state: RootState): boolean => state.auth.isCon
 
 export const selectFetchStatus = (state: RootState): FetchStatus => state.auth.fetchStatus;
 
-export const selectErrorMessage = (state: RootState): string => state.auth.error;
+export const selectErrorMessage = (state: RootState): string | undefined => state.auth.error;
