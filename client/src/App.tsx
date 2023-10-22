@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import LoginPage from './pages/LoginPage/LoginPage';
 import DashboardPage from './pages/DashboardPage/DashboardPage';
 import './App.scss';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
           <Route path='/dashboard' element={<DashboardPage />}/>
         </Routes>
       </BrowserRouter>
+      <ToastContainer />
     </div>
   );
 }
