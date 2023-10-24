@@ -8,16 +8,18 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
-    <div className="container">
-      <h1>Metamask Login</h1>
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<LoginPage />}/>
-          <Route path='/dashboard' element={<DashboardPage />}/>
-        </Routes>
-      </BrowserRouter>
+    <>
+      <div className="container">
+        <h1>Metamask Login</h1>
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<LoginPage />}/>
+            <Route path='/dashboard' element={<DashboardPage />}/>
+          </Routes>
+        </BrowserRouter>
+      </div>
       <ToastContainer />
-    </div>
+    </>
   );
 }
 
